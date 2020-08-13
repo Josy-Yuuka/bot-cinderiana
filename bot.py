@@ -21,7 +21,7 @@ def beleza(update, context):
     return STATE1
 
 def inputBeleza(update, context):
-    feedback = lower(update.message.text)
+    beleza = lower(update.message.text)
     print(beleza)
     if (beleza == 1 or 'sim'):
             message = """ui ui ui 
