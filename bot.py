@@ -1,7 +1,6 @@
 from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters,
                          RegexHandler, ConversationHandler)
 from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
-from numpy.core.defchararray import lower
 
 STATE1 = 1
 STATE2 = 2
