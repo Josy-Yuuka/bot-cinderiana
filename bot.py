@@ -24,14 +24,14 @@ def beleza(update, context):
 def inputBeleza(update, context):
     feedback = lower(update.message.text)
     print(beleza)
-    if beleza == 1 or 'sim':
+    if (beleza == 1 or 'sim'):
             message = """ui ui ui 
                     \n bate aqui então o/
                     \n heeey.. eu tbm passei alquinho"""
             context.bot.send_message(chat_id=update.effective_chat.id, text=message)
             return STATE2
     else:
-        if beleza == 2 or 'não':
+        if (beleza == 2 or 'não'):
              message = '''vira a mãozinha, vou passar alquinho!
                         \n puff puff
                         \n agora ta limpinha'''
